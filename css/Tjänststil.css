@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-jan-18, 16:07:43
+    Author     : 97hamsah
+*/
+
+
+
+body {
+    background-color: white;
+}
+
+header h1 {
+    font-size: 100px;
+    font-family: myFirstFont;
+    text-transform: uppercase;
+    text-align: center;
+    clear: both;
+    border-bottom: 2px dotted black;
+}
+
+ul {
+    list-style: none; 
+    margin-left: -40px;
+    text-align: center;
+    
+}
+
+.meny ul li a.Tjänst {
+    color: grey;
+}
+
+.meny ul li a {
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    color: white;
+    font-family: myFirstFont;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Bild1:hover {
+    background-color: black;
+}
+
+nav li:last-child a {
+    border-bottom: none;
+}
+
+.meny {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    left: -300px;
+    top: 0;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.menu_icon {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    float: right;
+    
+}
+
+#Meny_toggle {
+    display: none;
+}
+
+#Meny_toggle:checked ~ .meny {
+    position: absolute;
+    left: 0;
+}
+
+.Logga {
+    width: 100%;
+    
+}
+
+#wrapper {
+    width: 50%;
+    margin: 0 auto;
+    
+    background-color: white;
+}
+
+#wrapper header p {
+    font-size: 20px;
+    font-family: italic;
+    text-align: center;
+    border-bottom: 2px dotted black;
+    margin-bottom: 10px;
+}
+
+#wrapper header p:last-child {
+    border-bottom: none;
+    margin-top: -10px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(myriad_pro.ttf)
+}
+
+div div p {
+    text-align: center;
+    font-size: 20px;
+}
+
