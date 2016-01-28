@@ -20,7 +20,7 @@ header h1 {
     text-transform: uppercase;
     text-align: center;
     clear: both;
-    border-bottom: 2px dotted black;
+    border-bottom: 2px solid black;
 }
 
 ul {
@@ -155,7 +155,7 @@ nav li:last-child a {
 
 .Hampe {
     width: 400px;
-    
+
     background-image: url("../img/Hampe.png");
     background-size: 100% 100%;
     height: 436px;
@@ -182,4 +182,21 @@ nav li:last-child a {
     padding-top: 50px;
     color: rgba(0,0,0,0.0);
     transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 500px){
+  .Wille, .Hampe {
+    width: 200px;
+    height: 218px;
+    transition: all .0s ease-in-out;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  header h1{
+    font-size: 40px;
+  }
+  .Wille p, .Hampe p {
+    font-size: 12px;
+    padding-top: 13px;
+  }
 }

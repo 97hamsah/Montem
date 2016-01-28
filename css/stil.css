@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 2016-jan-18, 16:07:43
     Author     : 97hamsah
 */
@@ -14,21 +14,26 @@ body {
     background-color: white;
 }
 
+#top_box {
+  height: 100px;
+  width: 100%;
+}
+
 header h1 {
     font-size: 100px;
-    
+
 }
 
 ul {
-    list-style: none; 
+    list-style: none;
     margin-left: -40px;
     text-align: center;
-    
+
 }
 
 .meny ul li{
-    
-    
+
+
 }
 
 .meny ul li a {
@@ -92,7 +97,7 @@ nav li:last-child a {
 
 .Logga {
     width: 100%;
-    
+
 }
 
 #wrapper {
@@ -105,7 +110,7 @@ nav li:last-child a {
     font-size: 20px;
     font-family: italic;
     text-align: center;
-    border-bottom: 2px dotted black;
+    border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
 
